@@ -1,0 +1,134 @@
+.input_wrapper {
+    padding: 120px 90px;
+    display: flex;
+    background-image: url("../images/header-bg.svg");
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: top;
+}
+
+
+
+.right_block{
+    margin-left: 20px;
+
+}
+
+.home_text{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 12px;
+    color: #000000
+}
+
+.home_text_wrapper{
+
+    display: flex;
+    align-items: center;
+    height: 20px;
+
+}
+
+.home_text_wrapper .home_select{
+    margin-top: -15px;
+    margin-left: 10px;
+}
+
+.input_block{
+    padding: 30px 0 0 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.label{
+    width: 200px;
+}
+
+.button{
+    margin-top: 50px;
+    width: 400px;
+    border:none;
+    background: #84BD5A;
+    color: white;
+    height: 30px;
+    transition: all 0.4s;
+}
+
+.button:hover{
+    background: #322153;
+    color: white;
+}
+
+.total{
+    width: 400px;
+    height: 40px;
+    padding: 5px;
+    border: 1px solid  #84BD5A;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 30px;
+}
+
+.total_text{
+    margin: 0 10px 0 0;
+    color: #84BD5A;
+}
+
+.total_offset{
+    height: 40px;
+    border:none;
+    background: #84BD5A;
+    color: white;
+    transition: all 0.4s;
+    font-size: 12px;
+    width: 80px;
+}
+
+.total_offset:hover{
+    background: #322153;
+    color: white;
+}
+
+#modal-overlay {
+    width: 100%;
+    height: 100vh;
+    position: absolute;
+    background: rgba(0, 0, 0, 0.7);
+    display: none;
+    align-items: center;
+    justify-content: center;
+}
+
+#modal-overlay #modal {
+    max-width: 650px;
+    width: 100%;
+    background: white;
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    padding:10px;
+}
+
+#modal-overlay #modal .modal-footer {
+    margin-top: auto;
+}
+    
+#close-modal{
+    height: 40px;
+    background: red;
+    color: white;   
+    border:none;
+    width: 100px;
+}
+
+#save-modal{
+    height: 40px;
+    background: #84bd5a;
+    color: white;   
+    border:none;
+    width: 100px;
+}
